@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.HashMap;
 
-class Solution {
+class Solution1 {
     public String solution(String[] participant, String[] completion) {
         HashMap<String, Integer> map = new HashMap<>();
         for (String c : completion) {
@@ -25,7 +25,7 @@ class Solution {
 
 public class 완주하지_못한_선수 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution1 solution = new Solution1();
         String[] participant = {"leo", "kiki", "eden"};
         String[] completion = {"eden", "kiki"};
         System.out.println(solution.solution(participant, completion));
